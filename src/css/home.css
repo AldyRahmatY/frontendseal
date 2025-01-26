@@ -1,0 +1,93 @@
+/* Styling untuk headline section */
+.headline-category {
+  color: #828282;
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.headline-title {
+  font-size: xx-large;
+  font-weight: 700;
+  color: #212529;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.headline-description {
+  font-size: medium;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #828282;
+  line-height: x;
+}
+
+.headline-date {
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  color: #828282;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  color: #007bff;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+
+}
+.read-more:hover {
+  text-decoration: underline;
+  
+}
+.headline-date .icon {
+  margin-right: 8px;
+  color: #828282;
+}
+
+/* Pagination Styling */
+.pagination-container {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.pagination-prev,
+.pagination-next {
+  cursor: pointer;
+  margin: 0 10px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+  color: #007bff;
+}
+
+.pagination-text {
+  font-weight: 500;
+  margin: 10px 20px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.banner-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+.populer-section {
+  padding-top: 60px;
+}
+
+.rekomendasi-section {
+  padding-top: 60px;
+
+}
+
+
+

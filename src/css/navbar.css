@@ -1,0 +1,137 @@
+.scrolled {
+  background-color: #0090FF !important;
+  color: white !important;
+}
+
+.default-bg {
+  background-color: white !important;
+  color: black !important;
+}
+
+.navbar-nav .nav-link {
+  color: #6c757d;
+  font-size: medium;
+  transition: color 0.3s ease;
+  
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+  font-size: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.scrolled .navbar-nav .nav-link,
+.scrolled .navbar-brand {
+  color: white !important;
+  
+}
+
+.navbar-nav .nav-link:hover{
+  color: #0090FF !important;
+  font-weight: bold;
+
+}
+
+.scrolled .navbar-nav .nav-link:hover {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0090FF !important;
+  font-weight: bold;
+}
+
+.scrolled .navbar-nav .nav-link.active {
+  color: white !important;
+  font-weight: bold;
+}
+
+
+.navbar-toggler {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.transition-all {
+  transition: background-color 0.3s ease;
+}
+
+.footer {
+  background-color: #2f3c4b;
+  color: #ffffff;
+}
+
+.footer-brand {
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #0090FF;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0090FF;
+}
+
+.subscribe-box {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  border-radius: 5px;
+}
+
+.subscribe-box button {
+  border-radius: 5px;
+}
+
+.social-icons p {
+  margin-bottom: 5px; /* Reduces the gap between p and a */
+}
+
+.social-icon svg {
+  width: 40px; /* Set width explicitly for scaling */
+  height: 40px; /* Set height explicitly for scaling */
+}
+
+.list-unstyled {
+  list-style-type: none;
+  font-size: smaller;
+
+}
+
+.list-unstyled li {
+  padding-bottom: 7px;
+  font-family: 'Inter', sans-serif;
+}
+
+.subfooter h5 {
+  padding-bottom: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-control {
+  font-family: 'Inter', sans-serif;
+  font-size: smaller;
+
+}
+
+
+

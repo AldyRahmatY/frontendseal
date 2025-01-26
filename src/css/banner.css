@@ -1,0 +1,44 @@
+.banner-container {
+  background-color: #5ed0a1;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  color: white;
+  position: relative;
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.banner-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family : "Nunito", sans-serif;
+}
+
+.banner-subtitle {
+  font-size: 20px;
+}
+
+.banner-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.pagination-banner {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ADB5BD;
+}
+
+.pagination-banner.active {
+  color: #007bff;
+}

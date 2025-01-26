@@ -1,0 +1,146 @@
+.section-title {
+  font-weight: 800; /* Bolder */
+  padding-top: 23px;
+  padding-left: 10px;
+  font-family: "Nunito", serif;
+  font-size: 24px; /* Pastikan satuan ukuran */
+}
+
+.highlight-box {
+  width: 5px;
+  height: 35px;
+  background-color: #007bff;  /* Warna kotak, bisa diubah */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 20px 5px 10px;
+  width: 400px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.search-bar i {
+  color: #888;
+  cursor: pointer;
+}
+
+.lihat-semua {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0090FF;
+  color: #0090FF ;
+  border-radius: 5px;
+  width: 135px;
+  height: 52px;
+  background-color: #E2F2FF;
+}
+
+.lihat-semua input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+}
+
+
+.rekom-card {
+  width: 280px;
+  height: 350px;
+  position: relative; /* Pastikan posisi relatif agar absolute positioning bekerja */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.rekom-card:hover {
+  background: #e9ecef;
+}
+
+.rekom-image {
+  width: 270px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.rekom-title {
+  font-size: large;
+  font-weight: 600;
+  color: #333;
+  width: 270px;
+  height: 70px;
+  overflow: hidden; 
+  display: -webkit-box;
+  -webkit-line-clamp: 3;  /* Batasi teks hingga 2 baris */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;   /* Mencegah teks untuk pindah ke baris baru */
+  font-family: "Inter", sans-serif;
+
+}
+
+.rekom-meta {
+  font-size: small;
+  color: #6c757d;
+  font-family: "Inter", sans-serif;
+}
+
+.rekom-meta .rekom-category {
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 5px;
+
+}
+
+.rekom-meta .pemisah {
+  margin-right: 5px;
+  color: #D9D9D9;
+  font-weight: bold;
+}
+
+.rekom-meta .rekom-date {
+  margin-right: 5px;
+  color: #526071;
+  font-weight: bold;
+}
+
+.pagination-link {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.pagination-link:hover {
+  background-color: #007bff;
+  color: white !important;
+}
+
+.pagination-link.active {
+  background-color: #007bff;
+  color: white !important;
+  pointer-events: none;
+}
+
+.pagination-dots {
+  padding: 8px;
+}
+
+.pagination-rekom {
+  font-family: "Inter", sans-serif;
+
+}
+
