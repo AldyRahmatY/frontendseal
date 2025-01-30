@@ -83,10 +83,6 @@
   width: 270px;
   height: 70px;
   overflow: hidden; 
-  display: -webkit-box;
-  -webkit-line-clamp: 3;  /* Batasi teks hingga 2 baris */
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;   /* Mencegah teks untuk pindah ke baris baru */
   font-family: "Inter", sans-serif;
 
 }
